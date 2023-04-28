@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Shabnam";
+  src: url("../fonts/Shabnam.eot");
+  src: url("../fonts/Shabnam.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Shabnam.woff2") format("woff2"),
+    url("../fonts/Shabnam.woff") format("woff"),
+    url("../fonts/Shabnam.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "Shabnam";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(1);
+  background: #00d2ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3a7bd5,
+    #00d2ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3a7bd5,
+    #00d2ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.main-list::-webkit-scrollbar {
+  display: none;
+}
+
+.main-list-item p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.main-list-item h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.main-list-item-more {
+  cursor: pointer;
+  padding: 8px 10px;
+  border-radius: 50% 40%;
+  transition: all 0.3s;
+}
+
+.main-list-item-more:hover {
+  background-color: #dfdfdf;
+}
+
+.w-100 {
+  width: 100%;
+}
