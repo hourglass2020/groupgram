@@ -14,7 +14,7 @@ function LandingHeader() {
         >
             <img src={logo} alt="logo" height={130} />
             <Typography textAlign={"center"} variant="h3" component={"h1"}>
-                گروه یاب پروژه ریکتی
+                گروه یاب
             </Typography>
             <Typography
                 component={"h5"}
