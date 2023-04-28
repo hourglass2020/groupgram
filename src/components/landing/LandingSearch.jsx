@@ -10,7 +10,7 @@ function LandingSearch() {
         <Grid container sx={{ p: 0, mt: { md: 3 }, width: "100%" }} justifyContent="center" alignItems={'center'}>
             <Grid xs={12}>
                 <Typography component="h2" variant="h4" textAlign={'center'}>
-                    جست و جو کنید:
+                    جست و جو کنید و کیف کنید:
                 </Typography>
             </Grid>
             <Grid xs={12}>
